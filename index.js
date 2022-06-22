@@ -7,19 +7,19 @@ function arithmetic() {
   switch (operator) {
     case "*":
       result = firstNumber * secondNumber;
-      alert(result);
+      alert(`${firstNumber} ${operator} ${secondNumber} equals ${result}`);
       break;
     case "+":
       result = firstNumber + secondNumber;
-      alert(result);
+      alert(`${firstNumber} ${operator} ${secondNumber} equals ${result}`);
       break;
     case "-":
       result = firstNumber - secondNumber;
-      alert(result);
+      alert(`${firstNumber} ${operator} ${secondNumber} equals ${result}`);
       break;
     case "/":
       result = firstNumber / secondNumber;
-      alert(result);
+      alert(`${firstNumber} ${operator} ${secondNumber} equals ${result}`);
       break;
     default:
       alert("input is invalid, try again");
